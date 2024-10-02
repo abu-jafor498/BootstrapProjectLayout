@@ -1,0 +1,31 @@
+.header, .hero, .body, .bar, .footer {
+    background-color: teal;
+    margin-bottom: 10px;
+}
+
+.box {
+    margin: 10px 0 ;
+    height: 80px ;
+    background-color: red;
+    font-size: 30px;
+    color: white;
+}
+.red {
+    background-color: lime;
+}
+.five {
+    background-color: blue;
+}
+.box1 {
+    width: 100px;
+    animation-name: text;
+    animation-duration: 5s;
+    position: relative;
+}
+@keyframes text {
+    0%{ background-color: red; left: 0px; top: 0px;}
+    25%{ background-color: green; left: 300px; top: 0px;}
+    50%{background-color: blue; left: 300px; top: 300px;}
+    75%{background-color: aqua; left: 0px; top: 300px;}
+    100%{background-color: yellow; left: 0px; top: 0px;}
+}
